@@ -5,7 +5,7 @@
  * Time: 下午 17:07
  */
 
-namespace Jacobcyl\AliOSS;
+namespace Mimic\AliOSS;
 
 use Dingo\Api\Contract\Transformer\Adapter;
 use League\Flysystem\Adapter\AbstractAdapter;
@@ -97,9 +97,9 @@ class AliOssAdapter extends AbstractAdapter
         $bucket,
         $endPoint,
         $ssl,
+        $cdnDomain,
         $isCname = false,
         $debug = false,
-        $cdnDomain,
         $prefix = null,
         array $options = []
     )

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jacobcyl\AliOSS;
+namespace Mimic\AliOSS;
 
 use Jacobcyl\AliOSS\Plugins\PutFile;
 use Jacobcyl\AliOSS\Plugins\PutRemoteFile;
