@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "mimic/oss-sdk-php": "~2.4.*"
+        "mimic/oss-sdk-php": "~2.4"
     },
     "autoload": {
         "psr-4": {
